@@ -1,0 +1,2804 @@
+[2025-05-11 20:43:22] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 15:38:27
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/uploads/certificados/certificado_1_68210beb2bddf.pdf
+[2025-05-11 21:13:35] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 15:38:27
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/uploads/certificados/certificado_1_682112fff2933.pdf
+[2025-05-11 21:13:59] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => f689d926e5
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => f689d926e5
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: f689d926e5
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 15:38:27
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/uploads/certificados/certificado_1_68211317764c4.pdf
+[2025-05-11 21:15:51] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 15:38:27
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/generador-certificados-pdf/serve-pdf.php?file=certificado_1_68211387afdb4.pdf
+[2025-05-11 21:17:57] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 16:17:42
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/generador-certificados-pdf/serve-pdf.php?file=certificado_1_68211405712b9.pdf
+[2025-05-11 21:30:23] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 16:17:42
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/generador-certificados-pdf/serve-pdf.php?file=certificado_1_682116f048437.pdf
+[2025-05-11 22:30:07] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 16:17:42
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/generador-certificados-pdf/serve-pdf.php?file=certificado_1_682124efd56ff.pdf
+[2025-05-11 22:31:08] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 16:17:42
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/generador-certificados-pdf/serve-pdf.php?file=certificado_1_6821252c9ad39.pdf
+[2025-05-11 22:56:29] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => cc1b6a9063
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: cc1b6a9063
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 16:17:42
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/generador-certificados-pdf/serve-pdf.php?file=certificado_1_68212b1de3f3a.pdf
+[2025-05-12 00:48:02] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => 2d82269446
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => 2d82269446
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: 2d82269446
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-11 16:17:42
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/generador-certificados-pdf/serve-pdf.php?file=certificado_1_682145434ee18.pdf
+[2025-05-14 14:52:55] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=1, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => Certificados Summit
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 09:23:38
+    [fecha_modificacion] => 2025-05-14 09:52:01
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_6824ae48993e3.pdf
+[2025-05-14 15:04:15] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => ewfqwefqwfqwef
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:04:06
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_2_6824b0f004eb1.pdf
+[2025-05-14 15:22:02] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 2
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 2
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=2
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => prueba desarrollo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:21:49
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 2
+Iniciando búsqueda de registro...
+No se encontraron datos para el valor ingresado
+[2025-05-14 15:22:07] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => prueba desarrollo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:21:49
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_2_6824b52022087.pdf
+[2025-05-14 15:22:51] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => prueba desarrollo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:22:39
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_2_6824b54c64c85.pdf
+[2025-05-14 15:26:00] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => prueba desarrollo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:22:39
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_2_6824b6095b650.pdf
+[2025-05-14 15:48:04] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => prueba desarrolloo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:42:56
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_2_6824bb34c33a0.pdf
+[2025-05-14 15:54:16] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => prueba desarrolloo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:54:07
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_2_6824bca924a9b.pdf
+[2025-05-14 15:58:22] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 2
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=2, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 2
+    [nombre] => prueba desarrolloo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 10:00:43
+    [fecha_modificacion] => 2025-05-14 10:54:07
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_2_6824bd9edad88.pdf
+[2025-05-14 16:10:17] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 4
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 4
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=4, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 4
+    [nombre] => Certificados Summit
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:09:45
+    [fecha_modificacion] => 2025-05-14 11:09:45
+)
+
+Campos encontrados: 1
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_4_6824c06a59041.pdf
+[2025-05-14 16:15:43] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 4
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 4
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=4, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 4
+    [nombre] => Certificados Summitt
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:09:45
+    [fecha_modificacion] => 2025-05-14 11:15:28
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_4_6824c1b00e1db.pdf
+[2025-05-14 16:28:37] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 4
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 4
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=4, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 4
+    [nombre] => Certificados Summitt
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:09:45
+    [fecha_modificacion] => 2025-05-14 11:28:27
+)
+
+Campos encontrados: 2
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_4_6824c4b60147c.pdf
+[2025-05-14 20:25:12] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=9, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-14 11:46:36
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6824fc28ebf4e.pdf
+[2025-05-14 20:25:50] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => 27d1678369
+    [valor_busqueda] => 123456
+)
+
+Nonce recibido: 27d1678369
+Parámetros procesados: ID=9, Campo=numero, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-14 15:25:40
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6824fc4f3cd3a.pdf
+[2025-05-17 15:56:33] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-14 15:25:40
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828b1b202705.pdf
+[2025-05-17 15:57:11] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-14 15:25:40
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828b1d7f1240.pdf
+[2025-05-17 15:58:29] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-17 10:58:10
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828b22587ff8.pdf
+[2025-05-17 16:02:53] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-17 11:02:32
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828b32dc2e3b.pdf
+[2025-05-17 16:03:54] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-17 11:03:44
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828b36aab2b4.pdf
+[2025-05-17 16:04:53] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-17 11:04:31
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828b3a5cab42.pdf
+[2025-05-17 16:55:18] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-17 11:55:08
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828bf7669ec2.pdf
+[2025-05-17 16:55:53] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 9
+    [campo_busqueda] => numero
+    [action] => generar_certificado
+    [nonce] => cea80b865f
+    [valor_busqueda] => 123456789
+)
+
+Nonce recibido: cea80b865f
+Parámetros procesados: ID=9, Campo=numero, Valor=123456789
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 9
+    [nombre] => new new new new
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-14 11:46:36
+    [fecha_modificacion] => 2025-05-17 11:55:43
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+Nombre de hoja: asistencia
+Campo de búsqueda: numero
+Valor de búsqueda: 123456789
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [id] => 0
+    [tipo] => C.C.
+    [numero] => 123456789
+    [ciudad] => prueba
+    [nombre crudo] => prueba dev
+    [nombre] => Prueba Dev
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/test/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_9_6828bf99ee6e7.pdf
+[2025-05-17 18:49:02] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => 536c908417
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => 536c908417
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: 536c908417
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 13:48:44
+)
+
+Campos encontrados: 1
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_6828da1e674fb.pdf
+[2025-05-17 21:24:43] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 16:24:13
+)
+
+Campos encontrados: 1
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_6828fe9b51272.pdf
+[2025-05-17 21:40:05] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 16:39:44
+)
+
+Campos encontrados: 1
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_682902361fa9c.pdf
+[2025-05-17 21:41:47] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 16:41:37
+)
+
+Campos encontrados: 1
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_6829029bd2395.pdf
+[2025-05-17 22:03:22] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:03:08
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_682907aaefe76.pdf
+[2025-05-17 22:13:22] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:13:10
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_68290a030f602.pdf
+[2025-05-17 22:15:36] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:15:19
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_68290a885635a.pdf
+[2025-05-17 22:34:49] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:34:39
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_68290f094d71d.pdf
+[2025-05-17 22:45:52] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:45:40
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_682911a0e7f52.pdf
+[2025-05-17 22:47:06] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:46:56
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_682911eb15521.pdf
+[2025-05-17 22:55:36] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:55:24
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_682913e885d3c.pdf
+[2025-05-17 23:20:44] Solicitud recibida
+GET: Array
+(
+)
+
+POST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+)
+
+REQUEST: Array
+(
+    [certificado_id] => 1
+    [campo_busqueda] => numero_documento
+    [action] => generar_certificado
+    [nonce] => b22c86ada6
+    [valor_busqueda] => 123456
+    [woocommerce-login-nonce] => 
+    [_wpnonce] => 
+    [woocommerce-reset-password-nonce] => 
+)
+
+Nonce recibido: b22c86ada6
+Parámetros procesados: ID=1, Campo=numero_documento, Valor=123456
+Obteniendo información del certificado...
+Certificado encontrado: stdClass Object
+(
+    [id] => 1
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [fecha_creacion] => 2025-05-10 17:23:03
+    [fecha_modificacion] => 2025-05-17 17:56:14
+)
+
+Campos encontrados: 3
+API Key de Google encontrada (por seguridad no se muestra)
+Inicializando Google Sheets...
+Instancia de Google Sheets creada exitosamente
+Buscando en Google Sheets:
+Sheet ID: 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+Nombre de hoja: poster
+Campo de búsqueda: numero_documento
+Valor de búsqueda: 123456
+Iniciando búsqueda de registro...
+Registro encontrado: Array
+(
+    [reg] => Summit_2024_0
+    [nombre] => DEVELOPMENT PRUEBA TEST
+    [email] => webmaster@uninavarra.edu.co
+    [tipo_documento] => C.C.
+    [numero_documento] => 123456
+    [ciudad_expedicion] => Neiva
+    [trabajo] =>  LA AUTONOMÍA UNIVERSITARIA VS. EL DERECHO A LA EDUCACIÓN: UN DEBATE ENTRE LAS INSTITUCIONES DE EDUCACIÓN SUPERIOR Y LAS DECISIONES JUDICIALES EN INSTANCIA DE ACCIÓN DE TUTELA EN NEIVA, HUILA (2021 – 2023)
+)
+
+Inicializando generador de PDF...
+Generando PDF...
+PDF generado correctamente: http://localhost/rifas/wp-content/plugins/plugins-main/serve-pdf.php?file=certificado_1_682919cce6b78.pdf

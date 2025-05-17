@@ -1,0 +1,7 @@
+{
+    "require": {
+        "google/apiclient": "^2.15.0",
+        "tecnickcom/tcpdf": "^6.6.2",
+        "monolog/monolog": "2.9.1"
+    }
+}

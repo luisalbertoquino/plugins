@@ -1,0 +1,267 @@
+Generando certificado ID: 1, Campo: numero_documento, Valor: 123456
+Campos encontrados: 2
+Campo: nombre, Columna Sheet: nombre
+Campo: trabajo, Columna Sheet: trabajo
+Usando campo_busqueda del certificado: numero_documento
+Buscando valor '123456' en columna 'numero_documento'
+Generando certificado ID: 1, Campo: numero_documento, Valor: 123456
+Campos encontrados: 2
+Campo: nombre, Columna Sheet: nombre
+Campo: trabajo, Columna Sheet: trabajo
+Usando campo_busqueda del certificado: numero_documento
+Buscando valor '123456' en columna 'numero_documento'
+[2025-05-11 03:53:44] Solicitud recibida. ID: 1, Campo: numero_documento, Valor: 123456
+Campos encontrados: 2
+Campo de búsqueda desde el formulario: numero_documento
+Campo de búsqueda del certificado: numero_documento
+Columnas disponibles en la hoja: Array
+(
+    [0] => Array
+        (
+            [nombre] => reg
+            [columna] => A
+        )
+
+    [1] => Array
+        (
+            [nombre] => nombre
+            [columna] => B
+        )
+
+    [2] => Array
+        (
+            [nombre] => email
+            [columna] => C
+        )
+
+    [3] => Array
+        (
+            [nombre] => tipo_documento
+            [columna] => D
+        )
+
+    [4] => Array
+        (
+            [nombre] => numero_documento
+            [columna] => E
+        )
+
+    [5] => Array
+        (
+            [nombre] => ciudad_expedicion
+            [columna] => F
+        )
+
+    [6] => Array
+        (
+            [nombre] => trabajo
+            [columna] => G
+        )
+
+)
+
+Usando directamente el campo de búsqueda del certificado: numero_documento
+[2025-05-11 20:29:23] Solicitud recibida. ID: 1, Campo: numero_documento, Valor: 123456
+Campos encontrados: 2
+Campo de búsqueda desde el formulario: numero_documento
+Campo de búsqueda del certificado: numero_documento
+Columnas disponibles en la hoja: Array
+(
+    [0] => Array
+        (
+            [nombre] => reg
+            [columna] => A
+        )
+
+    [1] => Array
+        (
+            [nombre] => nombre
+            [columna] => B
+        )
+
+    [2] => Array
+        (
+            [nombre] => email
+            [columna] => C
+        )
+
+    [3] => Array
+        (
+            [nombre] => tipo_documento
+            [columna] => D
+        )
+
+    [4] => Array
+        (
+            [nombre] => numero_documento
+            [columna] => E
+        )
+
+    [5] => Array
+        (
+            [nombre] => ciudad_expedicion
+            [columna] => F
+        )
+
+    [6] => Array
+        (
+            [nombre] => trabajo
+            [columna] => G
+        )
+
+)
+
+Usando directamente el campo de búsqueda del certificado: numero_documento
+[2025-05-11 20:30:06] Solicitud recibida. ID: 1, Campo: numero_documento, Valor: 545485
+Campos encontrados: 2
+Campo de búsqueda desde el formulario: numero_documento
+Campo de búsqueda del certificado: numero_documento
+Columnas disponibles en la hoja: Array
+(
+    [0] => Array
+        (
+            [nombre] => reg
+            [columna] => A
+        )
+
+    [1] => Array
+        (
+            [nombre] => nombre
+            [columna] => B
+        )
+
+    [2] => Array
+        (
+            [nombre] => email
+            [columna] => C
+        )
+
+    [3] => Array
+        (
+            [nombre] => tipo_documento
+            [columna] => D
+        )
+
+    [4] => Array
+        (
+            [nombre] => numero_documento
+            [columna] => E
+        )
+
+    [5] => Array
+        (
+            [nombre] => ciudad_expedicion
+            [columna] => F
+        )
+
+    [6] => Array
+        (
+            [nombre] => trabajo
+            [columna] => G
+        )
+
+)
+
+Usando directamente el campo de búsqueda del certificado: numero_documento
+[2025-05-11 20:32:57] Solicitud recibida. ID: 1, Campo: numero_documento, Valor: 123456
+Campos encontrados: 2
+Campo de búsqueda desde el formulario: numero_documento
+Campo de búsqueda del certificado: numero_documento
+Columnas disponibles en la hoja: Array
+(
+    [0] => Array
+        (
+            [nombre] => reg
+            [columna] => A
+        )
+
+    [1] => Array
+        (
+            [nombre] => nombre
+            [columna] => B
+        )
+
+    [2] => Array
+        (
+            [nombre] => email
+            [columna] => C
+        )
+
+    [3] => Array
+        (
+            [nombre] => tipo_documento
+            [columna] => D
+        )
+
+    [4] => Array
+        (
+            [nombre] => numero_documento
+            [columna] => E
+        )
+
+    [5] => Array
+        (
+            [nombre] => ciudad_expedicion
+            [columna] => F
+        )
+
+    [6] => Array
+        (
+            [nombre] => trabajo
+            [columna] => G
+        )
+
+)
+
+Usando directamente el campo de búsqueda del certificado: numero_documento
+[2025-05-11 20:35:01] Solicitud recibida. ID: 1, Campo: numero_documento, Valor: 123456
+Campos encontrados: 2
+Campo de búsqueda desde el formulario: numero_documento
+Campo de búsqueda del certificado: numero_documento
+Columnas disponibles en la hoja: Array
+(
+    [0] => Array
+        (
+            [nombre] => reg
+            [columna] => A
+        )
+
+    [1] => Array
+        (
+            [nombre] => nombre
+            [columna] => B
+        )
+
+    [2] => Array
+        (
+            [nombre] => email
+            [columna] => C
+        )
+
+    [3] => Array
+        (
+            [nombre] => tipo_documento
+            [columna] => D
+        )
+
+    [4] => Array
+        (
+            [nombre] => numero_documento
+            [columna] => E
+        )
+
+    [5] => Array
+        (
+            [nombre] => ciudad_expedicion
+            [columna] => F
+        )
+
+    [6] => Array
+        (
+            [nombre] => trabajo
+            [columna] => G
+        )
+
+)
+
+Usando directamente el campo de búsqueda del certificado: numero_documento

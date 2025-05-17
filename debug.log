@@ -1,0 +1,1673 @@
+Guardando certificado ID: 1
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 1
+    [nonce] => 60e9130eab
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [campos] => [{\"id\":\"3\",\"certificado_id\":\"1\",\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":735,\"pos_y\":870,\"ancho\":545,\"alto\":33.5938,\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"0\"},{\"id\":\"4\",\"certificado_id\":\"1\",\"nombre\":\"trabajo\",\"tipo\":\"texto\",\"columna_sheet\":\"trabajo\",\"pos_x\":725,\"pos_y\":990,\"ancho\":560,\"alto\":33.5938,\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"1\"}]
+)
+
+Certificado actualizado: 1
+Campos JSON recibidos: [{\"id\":\"3\",\"certificado_id\":\"1\",\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":735,\"pos_y\":870,\"ancho\":545,\"alto\":33.5938,\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"0\"},{\"id\":\"4\",\"certificado_id\":\"1\",\"nombre\":\"trabajo\",\"tipo\":\"texto\",\"columna_sheet\":\"trabajo\",\"pos_x\":725,\"pos_y\":990,\"ancho\":560,\"alto\":33.5938,\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"1\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 3
+            [certificado_id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 735
+            [pos_y] => 870
+            [ancho] => 545
+            [alto] => 33.5938
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+            [orden] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 4
+            [certificado_id] => 1
+            [nombre] => trabajo
+            [tipo] => texto
+            [columna_sheet] => trabajo
+            [pos_x] => 725
+            [pos_y] => 990
+            [ancho] => 560
+            [alto] => 33.5938
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+            [orden] => 1
+        )
+
+)
+
+Campos anteriores eliminados para certificado 1
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 735
+    [pos_y] => 870
+    [ancho] => 545
+    [alto] => 33
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 5
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => trabajo
+    [tipo] => texto
+    [columna_sheet] => trabajo
+    [pos_x] => 725
+    [pos_y] => 990
+    [ancho] => 560
+    [alto] => 33
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 6
+Número de campos guardados: 2
+Guardando certificado ID: 1
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 1
+    [nonce] => 60e9130eab
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [campos] => [{\"id\":\"5\",\"certificado_id\":\"1\",\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":\"735\",\"pos_y\":\"870\",\"ancho\":\"545\",\"alto\":\"33\",\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"0\"},{\"id\":\"6\",\"certificado_id\":\"1\",\"nombre\":\"trabajo\",\"tipo\":\"texto\",\"columna_sheet\":\"trabajo\",\"pos_x\":\"725\",\"pos_y\":\"990\",\"ancho\":\"560\",\"alto\":\"33\",\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"1\"}]
+)
+
+Certificado actualizado: 1
+Campos JSON recibidos: [{\"id\":\"5\",\"certificado_id\":\"1\",\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":\"735\",\"pos_y\":\"870\",\"ancho\":\"545\",\"alto\":\"33\",\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"0\"},{\"id\":\"6\",\"certificado_id\":\"1\",\"nombre\":\"trabajo\",\"tipo\":\"texto\",\"columna_sheet\":\"trabajo\",\"pos_x\":\"725\",\"pos_y\":\"990\",\"ancho\":\"560\",\"alto\":\"33\",\"color\":\"#000000\",\"tamano_fuente\":\"12\",\"alineacion\":\"left\",\"orden\":\"1\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 5
+            [certificado_id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 735
+            [pos_y] => 870
+            [ancho] => 545
+            [alto] => 33
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+            [orden] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 6
+            [certificado_id] => 1
+            [nombre] => trabajo
+            [tipo] => texto
+            [columna_sheet] => trabajo
+            [pos_x] => 725
+            [pos_y] => 990
+            [ancho] => 560
+            [alto] => 33
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+            [orden] => 1
+        )
+
+)
+
+Campos anteriores eliminados para certificado 1
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 735
+    [pos_y] => 870
+    [ancho] => 545
+    [alto] => 33
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 7
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => trabajo
+    [tipo] => texto
+    [columna_sheet] => trabajo
+    [pos_x] => 725
+    [pos_y] => 990
+    [ancho] => 560
+    [alto] => 33
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 8
+Número de campos guardados: 2
+Guardando certificado ID: 1
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 1
+    [nonce] => 60e9130eab
+    [nombre] => summit
+    [plantilla_url] => http://localhost/rifas/wp-content/uploads/2025/05/certificadoPoster-scaled.jpg
+    [sheet_id] => 1FkIUywOpnoOgU0lZv2jDvwxqHLOslCvyOSfLwgrdHS0
+    [sheet_nombre] => poster
+    [campo_busqueda] => numero_documento
+    [habilitado] => 1
+    [campos] => [{\"id\":\"7\",\"certificado_id\":\"1\",\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1005.0000152587891,\"pos_y\":1125,\"ancho\":545,\"alto\":33,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"center\",\"orden\":\"0\"},{\"id\":\"8\",\"certificado_id\":\"1\",\"nombre\":\"trabajo\",\"tipo\":\"texto\",\"columna_sheet\":\"trabajo\",\"pos_x\":990.0000762939453,\"pos_y\":1270,\"ancho\":560,\"alto\":33,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"center\",\"orden\":\"1\"}]
+)
+
+Certificado actualizado: 1
+Campos JSON recibidos: [{\"id\":\"7\",\"certificado_id\":\"1\",\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1005.0000152587891,\"pos_y\":1125,\"ancho\":545,\"alto\":33,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"center\",\"orden\":\"0\"},{\"id\":\"8\",\"certificado_id\":\"1\",\"nombre\":\"trabajo\",\"tipo\":\"texto\",\"columna_sheet\":\"trabajo\",\"pos_x\":990.0000762939453,\"pos_y\":1270,\"ancho\":560,\"alto\":33,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"center\",\"orden\":\"1\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 7
+            [certificado_id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 1005.0000152588
+            [pos_y] => 1125
+            [ancho] => 545
+            [alto] => 33
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => center
+            [orden] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 8
+            [certificado_id] => 1
+            [nombre] => trabajo
+            [tipo] => texto
+            [columna_sheet] => trabajo
+            [pos_x] => 990.00007629395
+            [pos_y] => 1270
+            [ancho] => 560
+            [alto] => 33
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => center
+            [orden] => 1
+        )
+
+)
+
+Campos anteriores eliminados para certificado 1
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 1005
+    [pos_y] => 1125
+    [ancho] => 545
+    [alto] => 33
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => center
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 9
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => trabajo
+    [tipo] => texto
+    [columna_sheet] => trabajo
+    [pos_x] => 990
+    [pos_y] => 1270
+    [ancho] => 560
+    [alto] => 33
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => center
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 10
+Número de campos guardados: 2
+Guardando certificado ID: 0
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 0
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summit
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [campos] => [{\"id\":0,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna\":\"nombre\",\"pos_x\":344,\"pos_y\":342,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Nuevo certificado creado: 1
+Campos JSON recibidos: [{\"id\":0,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna\":\"nombre\",\"pos_x\":344,\"pos_y\":342,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 0
+            [nombre] => nombre
+            [tipo] => texto
+            [columna] => nombre
+            [pos_x] => 344
+            [pos_y] => 342
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 1
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 344
+    [pos_y] => 342
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 1
+Número de campos guardados: 1
+Guardando certificado ID: 1
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 1
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summitttt
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [campos] => [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna\":\"nombre\",\"pos_x\":344,\"pos_y\":342,\"ancho\":100,\"alto\":33,\"color\":\"rgb(0, 0, 0)\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 1
+Campos JSON recibidos: [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna\":\"nombre\",\"pos_x\":344,\"pos_y\":342,\"ancho\":100,\"alto\":33,\"color\":\"rgb(0, 0, 0)\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna] => nombre
+            [pos_x] => 344
+            [pos_y] => 342
+            [ancho] => 100
+            [alto] => 33
+            [color] => rgb(0, 0, 0)
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 1
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 344
+    [pos_y] => 342
+    [ancho] => 100
+    [alto] => 33
+    [color] => 
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Error al insertar campo: Column 'color' cannot be null
+Número de campos guardados: 0
+Guardando certificado ID: 1
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 1
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summit
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [campos] => [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":360,\"pos_y\":340,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":2,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":360,\"pos_y\":400,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 1
+Campos JSON recibidos: [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":360,\"pos_y\":340,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":2,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":360,\"pos_y\":400,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 360
+            [pos_y] => 340
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 360
+            [pos_y] => 400
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 1
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 360
+    [pos_y] => 340
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 2
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 360
+    [pos_y] => 400
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 3
+Número de campos guardados: 2
+Guardando certificado ID: 1
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 1
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summit
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":2,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":360,\"pos_y\":340,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":3,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":360,\"pos_y\":400,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 1
+Campos JSON recibidos: [{\"id\":2,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":360,\"pos_y\":340,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":3,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":360,\"pos_y\":400,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 360
+            [pos_y] => 340
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 3
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 360
+            [pos_y] => 400
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 1
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 360
+    [pos_y] => 340
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 4
+Insertando campo: Array
+(
+    [certificado_id] => 1
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 360
+    [pos_y] => 400
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 5
+Número de campos guardados: 2
+Guardando certificado ID: 0
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 0
+    [nonce] => 8d574360cb
+    [nombre] => ewfqwefqwfqwef
+    [plantilla_url] => 
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [campos] => [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":0,\"pos_y\":0,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Nuevo certificado creado: 2
+Campos JSON recibidos: [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":0,\"pos_y\":0,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 0
+            [pos_y] => 0
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 2
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 0
+    [pos_y] => 0
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 6
+Número de campos guardados: 1
+Guardando certificado ID: 2
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 2
+    [nonce] => 8d574360cb
+    [nombre] => ewfqwefqwfqwef
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [campos] => [{\"id\":6,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":7,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 2
+Campos JSON recibidos: [{\"id\":6,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":7,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 6
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 350
+            [pos_y] => 350
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 7
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 350
+            [pos_y] => 410
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 2
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 350
+    [pos_y] => 350
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 7
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 350
+    [pos_y] => 410
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 8
+Número de campos guardados: 2
+Guardando certificado ID: 2
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 2
+    [nonce] => 8d574360cb
+    [nombre] => ewfqwefqwfqwef
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":6,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":7,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 2
+Campos JSON recibidos: [{\"id\":6,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":7,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 6
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 350
+            [pos_y] => 350
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 7
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 350
+            [pos_y] => 410
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 2
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 350
+    [pos_y] => 350
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 9
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 350
+    [pos_y] => 410
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 10
+Número de campos guardados: 2
+Guardando certificado ID: 2
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 2
+    [nonce] => 8d574360cb
+    [nombre] => prueba desarrollo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":9,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":10,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 2
+Campos JSON recibidos: [{\"id\":9,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":10,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 350
+            [pos_y] => 350
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 350
+            [pos_y] => 410
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 2
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 350
+    [pos_y] => 350
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 11
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 350
+    [pos_y] => 410
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 12
+Número de campos guardados: 2
+Guardando certificado ID: 2
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 2
+    [nonce] => 8d574360cb
+    [nombre] => prueba desarrollo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":9,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":10,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":11,\"nombre\":\"tipo\",\"tipo\":\"texto\",\"columna_sheet\":\"tipo\",\"pos_x\":460,\"pos_y\":90,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 2
+Campos JSON recibidos: [{\"id\":9,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":10,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":11,\"nombre\":\"tipo\",\"tipo\":\"texto\",\"columna_sheet\":\"tipo\",\"pos_x\":460,\"pos_y\":90,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 9
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 350
+            [pos_y] => 350
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 10
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 350
+            [pos_y] => 410
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [2] => Array
+        (
+            [id] => 11
+            [nombre] => tipo
+            [tipo] => texto
+            [columna_sheet] => tipo
+            [pos_x] => 460
+            [pos_y] => 90
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 2
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 350
+    [pos_y] => 350
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 13
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 350
+    [pos_y] => 410
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 14
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => tipo
+    [tipo] => texto
+    [columna_sheet] => tipo
+    [pos_x] => 460
+    [pos_y] => 90
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 2
+)
+
+Campo insertado con éxito, ID: 15
+Número de campos guardados: 3
+Guardando certificado ID: 2
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 2
+    [nonce] => 8d574360cb
+    [nombre] => prueba desarrolloo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":13,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":14,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":15,\"nombre\":\"tipo\",\"tipo\":\"texto\",\"columna_sheet\":\"tipo\",\"pos_x\":460,\"pos_y\":90,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 2
+Campos JSON recibidos: [{\"id\":13,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":14,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":350,\"pos_y\":410,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":15,\"nombre\":\"tipo\",\"tipo\":\"texto\",\"columna_sheet\":\"tipo\",\"pos_x\":460,\"pos_y\":90,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 13
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 350
+            [pos_y] => 350
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 14
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 350
+            [pos_y] => 410
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [2] => Array
+        (
+            [id] => 15
+            [nombre] => tipo
+            [tipo] => texto
+            [columna_sheet] => tipo
+            [pos_x] => 460
+            [pos_y] => 90
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 2
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 350
+    [pos_y] => 350
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 16
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 350
+    [pos_y] => 410
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 17
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => tipo
+    [tipo] => texto
+    [columna_sheet] => tipo
+    [pos_x] => 460
+    [pos_y] => 90
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 2
+)
+
+Campo insertado con éxito, ID: 18
+Número de campos guardados: 3
+Guardando certificado ID: 2
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 2
+    [nonce] => 8d574360cb
+    [nombre] => prueba desarrolloo
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":16,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":330,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":17,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":330,\"pos_y\":420,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":18,\"nombre\":\"tipo\",\"tipo\":\"texto\",\"columna_sheet\":\"tipo\",\"pos_x\":250,\"pos_y\":420,\"ancho\":62,\"alto\":41.3906,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 2
+Campos JSON recibidos: [{\"id\":16,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":330,\"pos_y\":350,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":17,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":330,\"pos_y\":420,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":18,\"nombre\":\"tipo\",\"tipo\":\"texto\",\"columna_sheet\":\"tipo\",\"pos_x\":250,\"pos_y\":420,\"ancho\":62,\"alto\":41.3906,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 16
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 330
+            [pos_y] => 350
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 17
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 330
+            [pos_y] => 420
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [2] => Array
+        (
+            [id] => 18
+            [nombre] => tipo
+            [tipo] => texto
+            [columna_sheet] => tipo
+            [pos_x] => 250
+            [pos_y] => 420
+            [ancho] => 62
+            [alto] => 41.3906
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 2
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 330
+    [pos_y] => 350
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 19
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 330
+    [pos_y] => 420
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 20
+Insertando campo: Array
+(
+    [certificado_id] => 2
+    [nombre] => tipo
+    [tipo] => texto
+    [columna_sheet] => tipo
+    [pos_x] => 250
+    [pos_y] => 420
+    [ancho] => 62
+    [alto] => 41
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 2
+)
+
+Campo insertado con éxito, ID: 21
+Número de campos guardados: 3
+Guardando certificado ID: 0
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 0
+    [nonce] => 8d574360cb
+    [nombre] => rwerqwrwerqwrqw
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1067,\"pos_y\":1133,\"ancho\":452,\"alto\":41.3906,\"color\":\"#000000\",\"tamano_fuente\":14,\"alineacion\":\"left\"}]
+)
+
+Nuevo certificado creado: 3
+Campos JSON recibidos: [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1067,\"pos_y\":1133,\"ancho\":452,\"alto\":41.3906,\"color\":\"#000000\",\"tamano_fuente\":14,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 1067
+            [pos_y] => 1133
+            [ancho] => 452
+            [alto] => 41.3906
+            [color] => #000000
+            [tamano_fuente] => 14
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 3
+Insertando campo: Array
+(
+    [certificado_id] => 3
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 1067
+    [pos_y] => 1133
+    [ancho] => 452
+    [alto] => 41
+    [color] => #000000
+    [tamano_fuente] => 14
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 22
+Número de campos guardados: 1
+Guardando certificado ID: 0
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 0
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summit
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71.3906,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Nuevo certificado creado: 4
+Campos JSON recibidos: [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71.3906,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 1100
+            [pos_y] => 1100
+            [ancho] => 332
+            [alto] => 71.3906
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 4
+Insertando campo: Array
+(
+    [certificado_id] => 4
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 1100
+    [pos_y] => 1100
+    [ancho] => 332
+    [alto] => 71
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 23
+Número de campos guardados: 1
+Guardando certificado ID: 4
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 4
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summitt
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":23,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 4
+Campos JSON recibidos: [{\"id\":23,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 23
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 1100
+            [pos_y] => 1100
+            [ancho] => 332
+            [alto] => 71
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 4
+Insertando campo: Array
+(
+    [certificado_id] => 4
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 1100
+    [pos_y] => 1100
+    [ancho] => 332
+    [alto] => 71
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 24
+Número de campos guardados: 1
+Guardando certificado ID: 4
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 4
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summitt
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":23,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":24,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":340,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":15,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 4
+Campos JSON recibidos: [{\"id\":23,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"},{\"id\":24,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":350,\"pos_y\":340,\"ancho\":0,\"alto\":0,\"color\":\"#000000\",\"tamano_fuente\":15,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 23
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 1100
+            [pos_y] => 1100
+            [ancho] => 332
+            [alto] => 71
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 24
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 350
+            [pos_y] => 340
+            [ancho] => 0
+            [alto] => 0
+            [color] => #000000
+            [tamano_fuente] => 15
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 4
+Insertando campo: Array
+(
+    [certificado_id] => 4
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 1100
+    [pos_y] => 1100
+    [ancho] => 332
+    [alto] => 71
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 25
+Insertando campo: Array
+(
+    [certificado_id] => 4
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 350
+    [pos_y] => 340
+    [ancho] => 0
+    [alto] => 0
+    [color] => #000000
+    [tamano_fuente] => 15
+    [alineacion] => left
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 26
+Número de campos guardados: 2
+Guardando certificado ID: 4
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 4
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summitt
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":25,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+)
+
+Certificado actualizado: 4
+Campos JSON recibidos: [{\"id\":25,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":1100,\"pos_y\":1100,\"ancho\":332,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":12,\"alineacion\":\"left\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 25
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 1100
+            [pos_y] => 1100
+            [ancho] => 332
+            [alto] => 71
+            [color] => #000000
+            [tamano_fuente] => 12
+            [alineacion] => left
+        )
+
+)
+
+Campos anteriores eliminados para certificado 4
+Insertando campo: Array
+(
+    [certificado_id] => 4
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 1100
+    [pos_y] => 1100
+    [ancho] => 332
+    [alto] => 71
+    [color] => #000000
+    [tamano_fuente] => 12
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 27
+Número de campos guardados: 1
+Guardando certificado ID: 4
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 4
+    [nonce] => 8d574360cb
+    [nombre] => Certificados Summitt
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [habilitado] => 1
+    [campos] => [{\"id\":27,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":930,\"pos_y\":1110,\"ancho\":645.33334,\"alto\":52.33334,\"color\":\"#000000\",\"tamano_fuente\":16,\"alineacion\":\"left\"},{\"id\":28,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":930,\"pos_y\":1290,\"ancho\":663.33334,\"alto\":41.37504,\"color\":\"#000000\",\"tamano_fuente\":16,\"alineacion\":\"center\"}]
+)
+
+Certificado actualizado: 4
+Campos JSON recibidos: [{\"id\":27,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":930,\"pos_y\":1110,\"ancho\":645.33334,\"alto\":52.33334,\"color\":\"#000000\",\"tamano_fuente\":16,\"alineacion\":\"left\"},{\"id\":28,\"nombre\":\"numero\",\"tipo\":\"texto\",\"columna_sheet\":\"numero\",\"pos_x\":930,\"pos_y\":1290,\"ancho\":663.33334,\"alto\":41.37504,\"color\":\"#000000\",\"tamano_fuente\":16,\"alineacion\":\"center\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 27
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 930
+            [pos_y] => 1110
+            [ancho] => 645.33334
+            [alto] => 52.33334
+            [color] => #000000
+            [tamano_fuente] => 16
+            [alineacion] => left
+        )
+
+    [1] => Array
+        (
+            [id] => 28
+            [nombre] => numero
+            [tipo] => texto
+            [columna_sheet] => numero
+            [pos_x] => 930
+            [pos_y] => 1290
+            [ancho] => 663.33334
+            [alto] => 41.37504
+            [color] => #000000
+            [tamano_fuente] => 16
+            [alineacion] => center
+        )
+
+)
+
+Campos anteriores eliminados para certificado 4
+Insertando campo: Array
+(
+    [certificado_id] => 4
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 930
+    [pos_y] => 1110
+    [ancho] => 645
+    [alto] => 52
+    [color] => #000000
+    [tamano_fuente] => 16
+    [alineacion] => left
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 28
+Insertando campo: Array
+(
+    [certificado_id] => 4
+    [nombre] => numero
+    [tipo] => texto
+    [columna_sheet] => numero
+    [pos_x] => 930
+    [pos_y] => 1290
+    [ancho] => 663
+    [alto] => 41
+    [color] => #000000
+    [tamano_fuente] => 16
+    [alineacion] => center
+    [orden] => 1
+)
+
+Campo insertado con éxito, ID: 29
+Número de campos guardados: 2
+Guardando certificado ID: 0
+POST data: Array
+(
+    [action] => guardar_certificado
+    [id] => 0
+    [nonce] => 8d574360cb
+    [nombre] => Luis
+    [plantilla_url] => http://localhost/test/wp-content/uploads/2025/05/certificado-summit-20255-scaled.jpg
+    [sheet_id] => 1auPY_3hOzqckBg1EyHD7VTIKNl5yKi50iEit1doaMD4
+    [sheet_nombre] => asistencia
+    [campo_busqueda] => numero
+    [campos] => [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":964,\"pos_y\":1110,\"ancho\":703,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":16,\"alineacion\":\"center\"}]
+)
+
+Nuevo certificado creado: 5
+Campos JSON recibidos: [{\"id\":1,\"nombre\":\"nombre\",\"tipo\":\"texto\",\"columna_sheet\":\"nombre\",\"pos_x\":964,\"pos_y\":1110,\"ancho\":703,\"alto\":71,\"color\":\"#000000\",\"tamano_fuente\":16,\"alineacion\":\"center\"}]
+Campos decodificados: Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [nombre] => nombre
+            [tipo] => texto
+            [columna_sheet] => nombre
+            [pos_x] => 964
+            [pos_y] => 1110
+            [ancho] => 703
+            [alto] => 71
+            [color] => #000000
+            [tamano_fuente] => 16
+            [alineacion] => center
+        )
+
+)
+
+Campos anteriores eliminados para certificado 5
+Insertando campo: Array
+(
+    [certificado_id] => 5
+    [nombre] => nombre
+    [tipo] => texto
+    [columna_sheet] => nombre
+    [pos_x] => 964
+    [pos_y] => 1110
+    [ancho] => 703
+    [alto] => 71
+    [color] => #000000
+    [tamano_fuente] => 16
+    [alineacion] => center
+    [orden] => 0
+)
+
+Campo insertado con éxito, ID: 30
+Número de campos guardados: 1

@@ -1,0 +1,10 @@
+[2025-05-11 04:16:35] Ejecutando test_ajax
+Datos POST recibidos: Array
+(
+    [action] => certificados_pdf_test
+    [nonce] => ce5a89537d
+    [test_data] => Este es un mensaje de prueba
+    [timestamp] => 1746936994326
+)
+
+Verificación de nonce: Exitosa

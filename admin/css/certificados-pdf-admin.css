@@ -1,0 +1,730 @@
+/**
+ * Estilos CSS para el área de administración - Optimizado
+ *
+ * @since      1.0.0
+ */
+
+/* Estilos para la tabla de certificados */
+.certificados-table .column-id { width: 50px; }
+.certificados-table .column-status { width: 100px; }
+.certificados-table .column-shortcode { width: 200px; }
+.certificados-table .column-date { width: 120px; }
+.certificados-table .column-actions { width: 160px; text-align: right; }
+
+.status-enabled { color: #46b450; font-weight: bold; }
+.status-disabled { color: #dc3232; }
+
+.copy-shortcode { vertical-align: middle !important; }
+
+/* Estilos modernos para la edición de certificados */
+.certificados-pdf-edit {
+    box-sizing: border-box;
+}
+
+.certificados-pdf-edit * {
+    box-sizing: border-box;
+}
+
+/* Estilos para la previsualización de plantilla */
+.plantilla-preview-container {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background: #f9f9f9;
+    max-width: 400px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.plantilla-preview {
+    max-width: 100%;
+    max-height: 200px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.plantilla-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.plantilla-preview .no-image {
+    padding: 40px 10px;
+    background: #f1f1f1;
+    color: #888;
+    text-align: center;
+    border: 1px dashed #ccc;
+    border-radius: 3px;
+}
+
+/* Botones mejorados */
+#upload-btn, #probar-conexion {
+    position: relative;
+    padding: 6px 12px;
+    transition: all 0.2s ease;
+}
+
+#upload-btn:hover, #probar-conexion:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilos para el editor de campos */
+.editor-tools {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.zoom-controls, .grid-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#add-field {
+    background-color: #2271b1;
+    color: white;
+    border-color: #2271b1;
+    padding: 6px 12px;
+    transition: all 0.2s ease;
+}
+
+#add-field:hover {
+    background-color: #135e96;
+    border-color: #135e96;
+}
+
+/* Canvas mejorado */
+.editor-container {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #f9f9f9;
+    overflow: auto; /* Esto permite el scroll */
+    margin-bottom: 20px;
+    max-height: 750px; /* Altura máxima con scroll */
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    box-sizing: content-box !important; /* Importante para cálculos correctos de tamaño */
+}
+
+#certificado-canvas {
+    position: relative;
+    background: transparent !important;
+    transform-origin: top left;
+    display: inline-block; /* Importante para que se ajuste al contenido */
+    margin: 10px; /* Margen para que no se pegue a los bordes */
+}
+
+.certificado-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 2;
+    background-image: linear-gradient(to right, rgba(0,0,0,.05) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(0,0,0,.05) 1px, transparent 1px);
+    background-size: 10px 10px;
+}
+
+.certificate-bg {
+    display: block;
+    position: relative; /* Cambiado de absolute a relative */
+    z-index: 1;
+    max-width: none !important; /* Importante para prevenir redimensionamiento */
+    image-rendering: -webkit-optimize-contrast; /* Mejora la calidad de imagen en Webkit */
+    image-rendering: crisp-edges; /* Mejora la calidad de imagen en Firefox */
+    -ms-interpolation-mode: nearest-neighbor; /* Mejora la calidad de imagen en IE */
+}
+
+.no-image-large {
+    width: 100%;
+    height: 500px; /* Altura predeterminada cuando no hay imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    color: #888;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Campos mejorados */
+.campo-item {
+    position: absolute;
+    min-width: 150px; /* Aumentar el ancho mínimo */
+    min-height: 40px; /* Aumentar la altura mínima */
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid #2271b1;
+    border-radius: 4px;
+    cursor: move;
+    z-index: 10;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    font-size: 16px !important; /* Establecer un tamaño de fuente base más grande */
+}
+
+.campo-item:hover {
+    border-color: #00a0d2;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+    z-index: 11;
+}
+
+.campo-item.ui-draggable-dragging {
+    opacity: 0.8;
+    z-index: 100;
+}
+
+.campo-nombre {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px !important;
+}
+
+.campo-columna {
+    font-size: 12px !important;
+    color: #666;
+    display: block;
+    font-style: italic;
+}
+
+.campo-posicion {
+    font-size: 10px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    white-space: nowrap;
+    opacity: 0.8;
+}
+
+.campo-actions {
+    position: absolute;
+    top: -30px; /* Aumentar la distancia para que esté más arriba */
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 4px;
+    padding: 3px;
+    display: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    z-index: 101;
+}
+
+.campo-item:hover .campo-actions {
+    display: flex;
+}
+
+.campo-actions button {
+    position: relative;
+
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 4px 8px;
+    margin: 0 2px;
+    border-radius: 3px;
+    transition: background 0.2s;
+}
+
+.campo-actions button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.campo-actions button::after {
+    content: attr(title);
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s;
+}
+
+.campo-actions button:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+.coord-info {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    z-index: 100;
+}
+
+/* Modal mejorado */
+.campo-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999999;
+    backdrop-filter: blur(2px);
+}
+
+.campo-modal-content {
+    position: relative;
+    background-color: #fff;
+    margin: 5% auto;
+    padding: 25px;
+    border-radius: 6px;
+    width: 550px;
+    max-width: 90%;
+    max-height: 80vh; /* Altura máxima del 80% de la ventana */
+    overflow-y: auto; /* Añadir scroll vertical cuando sea necesario */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    animation: modalFadeIn 0.3s;
+}
+
+@keyframes modalFadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.campo-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 24px;
+    line-height: 1;
+    color: #666;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.campo-modal-close:hover {
+    color: #dc3232;
+}
+
+.campo-modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    color: #23282d;
+}
+
+.campo-form-row {
+    margin-bottom: 20px;
+}
+
+.campo-form-row label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.campo-form-row input,
+.campo-form-row select {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: all 0.2s;
+}
+
+.campo-form-row input:focus,
+.campo-form-row select:focus {
+    outline: none;
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    background-color: #fff;
+}
+
+.campo-form-row .description {
+    margin-top: 6px;
+    color: #666;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.campo-form-coords {
+    display: flex;
+    gap: 15px;
+}
+
+.campo-form-coord {
+    flex: 1;
+}
+
+.campo-form-actions {
+    margin-top: 25px;
+    text-align: right;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.campo-form-actions button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    transition: all 0.2s;
+}
+
+#campo-guardar {
+    background-color: #2271b1;
+    color: white;
+    border-color: #2271b1;
+}
+
+#campo-guardar:hover {
+    background-color: #135e96;
+    border-color: #135e96;
+}
+
+/* Estilos para la conexión y mensajes */
+#conexion-resultado {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#conexion-resultado .loading {
+    color: #0073aa;
+    display: flex;
+    align-items: center;
+}
+
+#conexion-resultado .loading:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    border: 2px solid #0073aa;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+#conexion-resultado .success {
+    color: #46b450;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: rgba(70, 180, 80, 0.1);
+    border-radius: 3px;
+}
+
+#conexion-resultado .error {
+    color: #dc3232;
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: rgba(220, 50, 50, 0.1);
+    border-radius: 3px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Estilos para select de columnas */
+.campo-busqueda-select {
+    margin-top: 12px;
+}
+
+.campo-select {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    transition: all 0.2s;
+}
+
+.campo-select:focus {
+    outline: none;
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    background-color: #fff;
+}
+
+.campo-busqueda-select .success-message {
+    color: #46b450;
+    margin: 6px 0;
+    padding: 5px 8px;
+    background-color: rgba(70, 180, 80, 0.1);
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Shortcode container */
+.shortcode-container {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.shortcode-container code {
+    flex-grow: 1;
+    margin-right: 10px;
+    background: transparent;
+    padding: 0;
+}
+
+/* Responsive fixes */
+@media screen and (max-width: 782px) {
+    .editor-tools {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .zoom-controls, .grid-controls {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .campo-form-coords {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+/* Asegurar que los dashicons se muestran correctamente */
+.dashicons {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: dashicons !important;
+    text-decoration: inherit;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Estilizar los botones con dashicons */
+.button .dashicons {
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 2px;
+}
+
+/* Estilos específicos para los botones de zoom */
+.zoom-controls .button {
+    padding: 0 5px;
+    min-height: 30px;
+    line-height: 28px;
+}
+
+.zoom-controls .button .dashicons {
+    font-size: 16px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para hacer el modal más accesible en dispositivos móviles */
+@media screen and (max-width: 600px) {
+    .campo-modal-content {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        max-height: 100vh;
+        border-radius: 0;
+        padding: 15px;
+    }
+    
+    .campo-modal {
+        padding: 0;
+    }
+    
+    /* Hacer que el botón de cerrar sea más accesible en móviles */
+    .campo-modal-close {
+        position: fixed;
+        top: 15px;
+        right: 15px;
+        background: rgba(255,255,255,0.9);
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+}
+
+
+
+/* Estilos para el botón de copiar shortcode */
+.copy-shortcode {
+    cursor: pointer;
+    position: relative;
+    padding: 4px 8px;
+    background: #f7f7f7;
+    border-color: #ccc;
+    margin-left: 5px;
+    transition: all 0.2s ease;
+}
+
+.copy-shortcode:hover {
+    background: #f0f0f0;
+    border-color: #999;
+}
+
+.copy-shortcode .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+/* Tooltip para indicar que se ha copiado */
+.copy-tooltip {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 100;
+    animation: fadeInOut 2s ease;
+}
+
+.copy-tooltip:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    10% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* Mejorar el contenedor de shortcode */
+.shortcode-container {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+.shortcode-container code {
+    flex-grow: 1;
+    margin-right: 10px;
+    background: transparent;
+    padding: 0;
+    font-family: monospace;
+    font-size: 13px;
+    color: #333;
+    user-select: all; /* Hace que todo el texto se seleccione con un solo clic */
+}
+
+/* Estilos para las guías de medida */
+.certificado-guias {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
+    background-color: transparent !important;
+}
+
+.guia-h, .guia-v {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.5);
+    pointer-events: none;
+}
+
+.guia-h {
+    height: 1px;
+    left: 0;
+    width: 100%;
+}
+
+.guia-v {
+    width: 1px;
+    top: 0;
+    height: 100%;
+}
+
+.guia-label {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
+    border-radius: 2px;
+}
+
+.guia-h .guia-label {
+    top: -18px;
+    left: 5px;
+}
+
+.guia-v .guia-label {
+    left: 5px;
+    top: 5px;
+}
+
+
+/* Cargar fuentes personalizadas desde la carpeta public/fonts */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/public/fonts/OldLondon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
