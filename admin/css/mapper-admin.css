@@ -1,0 +1,130 @@
+/**
+ * Estilos para Administración de Mapeo de Columnas
+ *
+ * @package Certificados_Digitales
+ */
+
+/* NOTA: .certificados-mapper-wrap tiene max-width: 1400px y margin: 20px auto
+   definidos globalmente en dashboard.css para mantener consistencia en todo el plugin */
+
+/* Descripción debajo del header */
+.certificados-mapper-description {
+    background: linear-gradient(135deg, #e8f4f8 0%, #f0f9ff 100%);
+    border-left: 4px solid #0073aa;
+    padding: 20px 25px;
+    margin: 0 0 30px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.certificados-mapper-description p {
+    margin: 0;
+    color: #1d2327;
+}
+
+.certificados-mapper-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    margin: 0 0 30px 0;
+}
+
+.certificados-mapper-card h2 {
+    margin: 0 0 25px 0;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #f0f0f1;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1d2327;
+}
+
+.mapper-selector {
+    margin: 20px 0;
+}
+
+.mapper-selector .form-group {
+    margin-bottom: 15px;
+}
+
+.mapper-selector label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+#mapping-table {
+    margin: 20px 0;
+}
+
+#mapping-table table {
+    width: 100%;
+}
+
+#mapping-table th {
+    background: #f0f0f1;
+    font-weight: 600;
+}
+
+#mapping-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.mapper-select {
+    width: 100%;
+    max-width: 400px;
+}
+
+.mapper-suggestion {
+    color: #666;
+    font-size: 13px;
+}
+
+.mapper-actions {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.mapper-actions .button {
+    margin-right: 10px;
+}
+
+.certificados-mapper-help {
+    background: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.certificados-mapper-help h3 {
+    margin-top: 0;
+}
+
+.certificados-mapper-help ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.certificados-mapper-help ul li {
+    margin-bottom: 8px;
+}
+
+#mapper-loading,
+#mapper-result {
+    margin-top: 20px;
+}
+
+#sheet-name-group {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#sheet-name-group input {
+    flex: 1;
+}

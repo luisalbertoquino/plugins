@@ -1,0 +1,75 @@
+/* ========================================
+   PANTALLA DE CARGA CON LOGO
+   ======================================== */
+.certificados-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    backdrop-filter: blur(2px);
+}
+
+.certificados-loader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.certificados-loader-spinner {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certificados-loader-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    animation: pulse-loader 1.5s ease-in-out infinite;
+}
+
+.certificados-loader-spinner::before {
+    content: '';
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border: 3px solid transparent;
+    border-top-color: #3498db;
+    border-right-color: #3498db;
+    border-radius: 50%;
+    animation: spin-loader 3s linear infinite;
+}
+
+@keyframes spin-loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse-loader {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+}
+
+
+
+

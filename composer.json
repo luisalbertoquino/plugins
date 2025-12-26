@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "tecnickcom/tcpdf": "^6.3",
+        "endroid/qr-code": "^3.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.33"
+        },
+        "optimize-autoloader": true
+    }
+}

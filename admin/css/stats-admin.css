@@ -1,0 +1,231 @@
+/**
+ * Estilos para Estadísticas
+ *
+ * @package Certificados_Digitales
+ */
+
+.certificados-stats-wrap {
+    max-width: 1400px;
+}
+
+/* Filtros */
+.certificados-stats-filters {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filter-group label {
+    font-weight: 600;
+    font-size: 13px;
+    color: #555;
+}
+
+.filter-group select {
+    min-width: 200px;
+    padding: 6px 10px;
+}
+
+.filter-group button .dashicons {
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+/* Cards de resumen */
+.stats-overview-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.stats-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+
+.stats-card-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: #667eea;
+    background: #fff !important;
+}
+
+.stats-card-content {
+    flex: 1;
+}
+
+.stats-card-value {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0073aa;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.stats-card-label {
+    font-size: 13px;
+    color: #666;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Contenedor de gráfico */
+.stats-chart-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 25px;
+    margin: 20px 0;
+}
+
+.stats-chart-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.chart-controls {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.chart-controls select {
+    padding: 5px 10px;
+}
+
+#timeline-chart {
+    max-height: 400px;
+}
+
+/* Dos columnas */
+.stats-two-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.stats-table-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 25px;
+}
+
+.stats-table-container h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.top-limit-selector {
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.top-limit-selector label {
+    margin-right: 8px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.top-limit-selector select {
+    padding: 4px 8px;
+}
+
+/* Tablas */
+.stats-table-container table {
+    margin-top: 0;
+}
+
+.stats-table-container table th {
+    background: #f7f7f7;
+    font-weight: 600;
+    font-size: 13px;
+    color: #555;
+    padding: 12px;
+}
+
+.stats-table-container table td {
+    padding: 12px;
+    font-size: 13px;
+}
+
+.stats-table-container table code {
+    background: #f5f5f5;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+}
+
+/* Spinner para botón de exportar */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.dashicons.spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .stats-two-columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .certificados-stats-filters {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .filter-group select,
+    .filter-group button {
+        width: 100%;
+    }
+
+    .stats-overview-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .stats-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Updated: 2025-12-10 */
