@@ -1,16 +1,17 @@
 <?php
 /**
  * Plugin Name: Certificados Digitales PRO
- * Plugin URI: https://tudominio.com/certificados-digitales
- * Description: Sistema completo de generación de certificados digitales en PDF con integración a Google Sheets, múltiples plantillas y sistema de validación con QR.
+ * Plugin URI: https://github.com/luisalbertoquino/plugins
+ * Description: Sistema profesional de generación de certificados digitales en PDF con integración a Google Sheets, editor visual drag & drop y validación con códigos QR únicos.
  * Version: 1.5.13
- * Author: Luisqui
- * Author URI: https://tudominio.com
+ * Author: Luis Alberto Aquino
+ * Author URI: https://github.com/luisalbertoquino
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: certificados-digitales
  * Domain Path: /languages
  * Requires at least: 5.8
+ * Tested up to: 6.4
  * Requires PHP: 7.4
  */
 
