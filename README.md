@@ -1,184 +1,333 @@
-# Certificados Digitales PRO
+<div align="center">
 
-Sistema completo de generación de certificados digitales en PDF con integración a Google Sheets, múltiples plantillas y sistema de validación con QR.
+# 🎓 Certificados Digitales PRO
 
-## Requisitos del Sistema
+### Sistema profesional de generación de certificados digitales para WordPress
+
+[![WordPress](https://img.shields.io/badge/WordPress-5.8+-blue.svg)](https://wordpress.org/)
+[![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg)](https://www.php.net/)
+[![License](https://img.shields.io/badge/License-GPL--2.0+-green.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-1.5.13-orange.svg)](CHANGELOG.md)
+
+**Genera certificados PDF de alta calidad con integración a Google Sheets, editor visual drag & drop y validación con códigos QR únicos**
+
+[Características](#-características-principales) • [Instalación](#-instalación) • [Configuración](#-configuración-inicial) • [Documentación](#-uso-y-shortcodes) • [Soporte](#-soporte)
+
+</div>
+
+## 📋 Requisitos del Sistema
+
+<table>
+<tr>
+<td width="50%">
 
 ### Requisitos Mínimos
+- ✅ **WordPress** 5.8+
+- ✅ **PHP** 7.4.0+
+- ✅ **MySQL** 5.6+ / MariaDB 10.1+
+- ✅ **Memoria PHP** 128 MB
 
-- **WordPress**: 5.8 o superior
-- **PHP**: 7.4.0 o superior (compatible con PHP 7.4.33)
-- **MySQL**: 5.6 o superior (o MariaDB 10.1+)
+</td>
+<td width="50%">
 
-### Requisitos Recomendados
+### Recomendado
+- 🚀 **WordPress** 6.0+
+- 🚀 **PHP** 8.0+
+- 🚀 **MySQL** 5.7+ / MariaDB 10.3+
+- 🚀 **Memoria PHP** 256 MB
 
-- **WordPress**: 6.0 o superior
-- **PHP**: 8.0 o superior
-- **MySQL**: 5.7 o superior (o MariaDB 10.3+)
-- **Memoria PHP**: 256 MB o superior (recomendado para generación de PDFs)
-- **Tamaño máximo de archivo**: 20 MB o superior (para subir plantillas)
-
-### Nota Importante sobre PHP 7.4
-
-Este plugin está completamente optimizado para **PHP 7.4**, incluyendo todas sus dependencias (TCPDF, Endroid QR Code, Symfony components). Si tu servidor usa PHP 7.4.33, el plugin funcionará perfectamente sin problemas de compatibilidad.
+</td>
+</tr>
+</table>
 
 ### Extensiones PHP Requeridas
 
-El plugin requiere las siguientes extensiones de PHP (generalmente incluidas en instalaciones estándar):
+| Extensión | Propósito |
+|-----------|-----------|
+| `gd` o `imagick` | Procesamiento de imágenes y QR |
+| `mbstring` | Manejo de caracteres especiales |
+| `json` | Procesamiento de datos |
+| `curl` | Integración con Google Sheets |
+| `zip` | Gestión de archivos (opcional) |
 
-- `gd` o `imagick` - Para procesamiento de imágenes
-- `mbstring` - Para manejo de cadenas multibyte
-- `json` - Para procesamiento de datos JSON
-- `curl` - Para integración con Google Sheets API
-- `zip` - Para gestión de archivos comprimidos (opcional)
+### Compatibilidad PHP
 
-### Compatibilidad de Versiones PHP
+| Versión | Estado |
+|---------|--------|
+| PHP 7.4 | ✅ Compatible (mínimo) |
+| PHP 8.0 | ✅ Compatible (recomendado) |
+| PHP 8.1 | ✅ Compatible |
+| PHP 8.2 | ✅ Compatible |
+| PHP 8.3 | ✅ Compatible |
+| PHP 7.3 o anterior | ❌ No compatible |
 
-✅ **PHP 7.4** - Compatible (mínimo requerido)
-✅ **PHP 8.0** - Compatible y recomendado
-✅ **PHP 8.1** - Compatible
-✅ **PHP 8.2** - Compatible
-✅ **PHP 8.3** - Compatible
+## ✨ Características Principales
 
-⚠️ **PHP 7.3 o anterior** - No compatible
+<table>
+<tr>
+<td width="50%">
 
-## Características Principales
+### 🎨 Diseño y Personalización
+- **Editor Visual Drag & Drop** - Diseña certificados intuitivamente
+- **Fuentes Personalizadas** - Soporte para .ttf y .otf
+- **Estilos de Fuente** - Normal, negrita, cursiva y combinaciones
+- **Colores Personalizables** - Sistema completo de temas
+- **Modo Calibración** - Grilla visual para posicionamiento preciso
+- **Múltiples Plantillas** - Para diferentes eventos
 
-- 📄 **Generación de PDFs**: Certificados de alta calidad en formato PDF con TCPDF
-- 🎨 **Editor Visual**: Diseña tus certificados con un editor drag & drop intuitivo
-- 📊 **Google Sheets**: Importa datos de participantes desde Google Sheets en tiempo real
-- 🔍 **Validación QR**: Sistema de validación con códigos QR únicos por certificado
-- 🎨 **Personalización Completa**:
-  - Colores personalizables (primario, hover, éxito, error)
-  - Fuentes personalizadas (.ttf, .otf)
-  - Estilos de fuente (normal, negrita, cursiva, negrita cursiva)
-  - Tamaños y colores configurables por campo
-- 📱 **Responsive**: Interfaz adaptable a todos los dispositivos
-- 🔐 **Seguro**: Certificados con código único de validación
-- 📑 **Múltiples Plantillas**: Soporte para diferentes tipos de certificados y eventos
-- 🔧 **Modo Calibración**: Grilla visual para posicionamiento preciso de campos
-- 💾 **Auto-guardado**: Sistema inteligente de guardado de configuraciones
+</td>
+<td width="50%">
 
-## Instalación
+### 🚀 Funcionalidades Avanzadas
+- **Generación de PDFs** - Alta calidad con TCPDF
+- **Integración Google Sheets** - Importa datos en tiempo real
+- **Códigos QR Únicos** - Sistema de validación automático
+- **Búsqueda Frontend** - Shortcode para usuarios finales
+- **Estadísticas** - Dashboard con métricas de descargas
+- **Auto-guardado** - Sistema inteligente de configuración
 
-1. Sube el directorio `certificate-pro` a `/wp-content/plugins/`
-2. Activa el plugin desde el menú 'Plugins' en WordPress
-3. Ve a 'Certificados → Configuración' para configurar el plugin
-4. Configura tu API Key de Google Sheets (si deseas usar esta función)
-5. Crea tu primera plantilla de certificado
+</td>
+</tr>
+</table>
 
-## Configuración Inicial
-
-### 1. API de Google Sheets (Opcional)
-
-Para usar la integración con Google Sheets:
-
-1. Ve a [Google Cloud Console](https://console.cloud.google.com/)
-2. Crea un nuevo proyecto o selecciona uno existente
-3. Habilita la API de Google Sheets
-4. Crea credenciales (API Key)
-5. Copia la API Key en 'Certificados → Configuración'
-
-### 2. Personalización de Colores
-
-1. Ve a 'Certificados → Configuración'
-2. Desplázate a la sección 'Personalización de Colores'
-3. Selecciona tus colores preferidos:
-   - **Color Primario**: Se aplica a botones del dashboard, configurador, enlaces y elementos activos
-   - **Color Hover**: Color que aparece al pasar el mouse sobre elementos interactivos
-   - **Color Éxito**: Para mensajes de éxito y confirmación
-   - **Color Error**: Para mensajes de error y advertencia
-4. Haz clic en 'Guardar Cambios'
-
-**Nota:** Los botones del dashboard y configurador utilizan el color primario de tu WordPress (configurable en Personalización → Colores). Si personalizas el color primario del plugin, este sobrescribirá el color de WordPress para los elementos del plugin.
-
-### 3. Gestión de Fuentes Personalizadas
-
-El plugin permite subir y usar fuentes personalizadas en tus certificados:
-
-1. Ve a 'Certificados → Fuentes'
-2. Haz clic en 'Agregar Nueva Fuente'
-3. Sube tu archivo de fuente (.ttf)
-4. Asigna un nombre descriptivo a la fuente
-5. La fuente estará disponible en el configurador de campos
-
-**Formatos soportados:**
-- TrueType (.ttf)
-- OpenType (.otf)
-
-**Recomendaciones:**
-- Usa fuentes con licencia comercial si es necesario
-- Las fuentes se almacenan en `/wp-content/uploads/certificados-fuentes/`
-- Puedes subir variantes (Regular, Bold, Italic) con nombres diferentes
-
-### 4. Crear Plantilla
-
-1. Ve a 'Certificados → Plantillas'
-2. Haz clic en 'Agregar Nueva Plantilla'
-3. Sube tu imagen de fondo
-4. Arrastra y coloca los campos (nombre, fecha, etc.)
-5. Ajusta estilos (fuente, tamaño, color)
-6. Guarda la plantilla
-
-## Shortcodes
-
-### Mostrar Formulario de Búsqueda
+### 🎯 Características Destacadas
 
 ```
+✅ Totalmente Responsive          ✅ Sistema de Caché Inteligente
+✅ Compatible Multiidioma          ✅ Mapeo de Columnas Flexible
+✅ Validación Segura               ✅ Migraciones Automáticas
+✅ Panel de Estadísticas           ✅ Documentación Integrada
+```
+
+## 📦 Instalación
+
+### Instalación Manual
+
+```bash
+# 1. Descarga el plugin
+git clone https://github.com/luisalbertoquino/plugins.git
+
+# 2. Copia a la carpeta de plugins de WordPress
+cp -r certificate-pro /ruta/a/wordpress/wp-content/plugins/
+
+# 3. Instala las dependencias
+cd /ruta/a/wordpress/wp-content/plugins/certificate-pro
+composer install
+```
+
+### Instalación desde WordPress
+
+1. Ve a **Plugins** → **Añadir nuevo**
+2. Haz clic en **Subir plugin**
+3. Selecciona el archivo `.zip` del plugin
+4. Haz clic en **Instalar ahora**
+5. Activa el plugin
+
+### Configuración Rápida
+
+1. ✅ Ve a **Certificados** → **Configuración**
+2. ✅ Configura tu API Key de Google Sheets (opcional)
+3. ✅ Personaliza los colores del plugin
+4. ✅ Sube tus fuentes personalizadas (opcional)
+5. ✅ Crea tu primera plantilla de certificado
+
+## ⚙️ Configuración Inicial
+
+### 🔗 1. Integración con Google Sheets
+
+<details>
+<summary>Haz clic para ver los pasos de configuración</summary>
+
+1. Accede a [Google Cloud Console](https://console.cloud.google.com/)
+2. Crea un nuevo proyecto o selecciona uno existente
+3. Habilita **Google Sheets API**
+4. Genera tus credenciales (API Key)
+5. Copia la API Key en **Certificados** → **Configuración**
+
+> 💡 **Tip:** La API Key es opcional. El plugin funciona sin Google Sheets usando datos manuales.
+
+</details>
+
+### 🎨 2. Personalización de Colores
+
+El plugin incluye un sistema completo de personalización de colores:
+
+| Color | Uso |
+|-------|-----|
+| **Primario** | Botones, enlaces, elementos activos |
+| **Hover** | Efectos al pasar el mouse |
+| **Éxito** | Mensajes de confirmación |
+| **Error** | Mensajes de advertencia |
+
+**Ruta:** `Certificados → Configuración → Personalización de Colores`
+
+### ✍️ 3. Gestión de Fuentes Personalizadas
+
+<details>
+<summary>Cómo subir fuentes personalizadas</summary>
+
+**Formatos soportados:**
+- ✅ TrueType (`.ttf`)
+- ✅ OpenType (`.otf`)
+
+**Pasos:**
+1. Ve a **Certificados** → **Fuentes**
+2. Haz clic en **Agregar Nueva Fuente**
+3. Sube tu archivo de fuente
+4. Asigna un nombre descriptivo
+5. Usa la fuente en el configurador de campos
+
+**Ubicación:** Las fuentes se almacenan en `/wp-content/uploads/certificados-fuentes/`
+
+> ⚠️ **Nota:** Asegúrate de tener licencia para usar las fuentes comercialmente.
+
+</details>
+
+### 📄 4. Crear tu Primera Plantilla
+
+```
+1. Certificados → Plantillas → Agregar Nueva
+2. Sube imagen de fondo (JPG/PNG recomendado)
+3. Arrastra campos al certificado (nombre, fecha, etc.)
+4. Personaliza estilos (fuente, tamaño, color)
+5. Activa modo calibración para ajustes precisos
+6. Guarda la plantilla
+```
+
+## 📖 Uso y Shortcodes
+
+### Shortcode Principal
+
+Inserta el formulario de búsqueda de certificados en cualquier página o entrada:
+
+```php
 [certificados_buscar]
 ```
 
-Muestra un formulario para que los usuarios busquen y descarguen sus certificados.
+### Parámetros Disponibles
 
-**Parámetros opcionales:**
-- `pestana` - ID de la pestaña/evento específico (por defecto muestra todas)
+| Parámetro | Descripción | Ejemplo |
+|-----------|-------------|---------|
+| `pestana` | ID del evento/pestaña específico | `[certificados_buscar pestana="1"]` |
 
-**Ejemplo:**
+### Ejemplo de Uso
+
+```html
+<!-- Búsqueda general (todos los eventos) -->
+[certificados_buscar]
+
+<!-- Búsqueda para un evento específico -->
+[certificados_buscar pestana="5"]
 ```
-[certificados_buscar pestana="1"]
+
+### 🎯 Flujo de Usuario
+
+```mermaid
+Usuario → Ingresa datos → Busca certificado → Descarga PDF con QR
 ```
 
-## Preguntas Frecuentes
+1. El usuario accede a la página con el shortcode
+2. Ingresa su información (nombre, documento, etc.)
+3. El sistema busca en Google Sheets o base de datos
+4. Si existe, genera el PDF con código QR único
+5. El usuario descarga su certificado
 
-### ¿Necesito PHP 8.0 obligatoriamente?
+## ❓ Preguntas Frecuentes (FAQ)
 
-No, el plugin funciona con PHP 7.4 en adelante. Sin embargo, recomendamos PHP 8.0+ para mejor rendimiento y seguridad.
+<details>
+<summary><strong>¿Necesito PHP 8.0 obligatoriamente?</strong></summary>
 
-### ¿Cuánta memoria PHP necesito?
+No, el plugin funciona desde **PHP 7.4** en adelante. Sin embargo, recomendamos **PHP 8.0+** para mejor rendimiento y seguridad.
 
-Recomendamos al menos 256 MB de memoria PHP. Para generar PDFs con imágenes grandes o muchos certificados simultáneos, puede necesitar más.
+</details>
 
-### ¿Es compatible con mi tema de WordPress?
+<details>
+<summary><strong>¿Cuánta memoria PHP necesito?</strong></summary>
 
-Sí, el plugin está diseñado para funcionar con cualquier tema de WordPress. Usa CSS con alta especificidad para evitar conflictos.
+**Mínimo:** 128 MB
+**Recomendado:** 256 MB o más
 
-### ¿Puedo personalizar los colores del plugin?
+Para generar PDFs con imágenes grandes o múltiples certificados simultáneos, puede requerir más memoria.
 
-Sí, desde 'Certificados → Configuración' en la sección 'Personalización de Colores' puedes personalizar:
-- Color primario (botones, enlaces, elementos activos)
-- Color hover (efecto al pasar el mouse)
-- Color de éxito (mensajes de confirmación)
-- Color de error (mensajes de advertencia)
+</details>
 
-Los colores se aplican automáticamente a todo el plugin, incluyendo el dashboard y el configurador de campos.
+<details>
+<summary><strong>¿Es compatible con mi tema de WordPress?</strong></summary>
 
-### ¿Puedo usar mis propias fuentes en los certificados?
+✅ Sí, el plugin está diseñado para funcionar con **cualquier tema de WordPress**. Utiliza CSS con alta especificidad para evitar conflictos de estilos.
 
-Sí, el plugin soporta fuentes personalizadas. Ve a 'Certificados → Fuentes' y sube tus archivos .ttf o .otf. Las fuentes estarán disponibles inmediatamente en el configurador de campos para todos tus certificados.
+</details>
 
-### ¿Qué formatos de fuente están soportados?
+<details>
+<summary><strong>¿Puedo personalizar los colores del plugin?</strong></summary>
 
-El plugin soporta:
-- TrueType (.ttf) - Recomendado
-- OpenType (.otf) - Compatible
+✅ Sí, desde **Certificados → Configuración → Personalización de Colores** puedes personalizar:
+- Color primario
+- Color hover
+- Color de éxito
+- Color de error
 
-Puedes subir múltiples variantes de la misma fuente (Regular, Bold, Italic, etc.) con nombres diferentes.
+Los cambios se aplican inmediatamente en todo el plugin.
 
-## Soporte
+</details>
 
-Para reportar problemas o solicitar nuevas características, contacta con el desarrollador.
+<details>
+<summary><strong>¿Puedo usar mis propias fuentes?</strong></summary>
 
-## Changelog
+✅ Sí, el plugin soporta fuentes personalizadas:
+- **Formatos:** `.ttf` (TrueType) y `.otf` (OpenType)
+- **Ubicación:** `Certificados → Fuentes`
+- Puedes subir múltiples variantes (Regular, Bold, Italic)
+
+</details>
+
+<details>
+<summary><strong>¿Necesito Google Sheets obligatoriamente?</strong></summary>
+
+❌ No, Google Sheets es **opcional**. El plugin puede funcionar con:
+- Integración con Google Sheets (recomendado para grandes volúmenes)
+- Base de datos local de WordPress
+- Importación manual de datos
+
+</details>
+
+<details>
+<summary><strong>¿Los certificados tienen validación?</strong></summary>
+
+✅ Sí, cada certificado incluye:
+- **Código QR único** con URL de validación
+- **ID único** por certificado
+- Sistema de validación automático en frontend
+
+</details>
+
+## 💬 Soporte
+
+¿Necesitas ayuda? Estamos aquí para ti:
+
+- 🐛 **Reportar Bugs:** [Abrir Issue](https://github.com/luisalbertoquino/plugins/issues)
+- 💡 **Sugerencias:** [Solicitar Funcionalidad](https://github.com/luisalbertoquino/plugins/issues/new)
+- 📚 **Documentación:** Consulta la documentación integrada en `Certificados → Documentación`
+- 📧 **Contacto:** Para soporte personalizado, contacta al desarrollador
+
+### 🔍 Antes de Reportar un Problema
+
+Por favor, incluye la siguiente información:
+
+```
+- Versión de WordPress
+- Versión de PHP
+- Versión del plugin
+- Tema activo
+- Otros plugins activos
+- Descripción detallada del problema
+- Pasos para reproducirlo
+```
+
+## 📝 Changelog
+
+<details>
+<summary><strong>Ver historial completo de versiones</strong></summary>
 
 ### 1.5.13 (2025-12-09)
 - **CORRECCIÓN**: Verificación de índices antes de crearlos en migraciones
@@ -283,13 +432,41 @@ Para reportar problemas o solicitar nuevas características, contacta con el des
 ### 1.0.0
 - Versión inicial del plugin
 
-## Licencia
+</details>
 
-Este plugin está licenciado bajo GPL-2.0+
+---
 
-## Créditos
+## 📄 Licencia
 
-Desarrollado con:
-- [TCPDF](https://tcpdf.org/) - Generación de PDFs
-- [Endroid QR Code](https://github.com/endroid/qr-code) - Códigos QR
-- Google Sheets API - Integración con hojas de cálculo
+Este plugin está licenciado bajo **GPL-2.0+**
+
+```
+Copyright (C) 2025 - Certificados Digitales PRO
+Este programa es software libre; puede redistribuirlo y/o modificarlo
+bajo los términos de la Licencia Pública General GNU.
+```
+
+## 🙏 Créditos y Tecnologías
+
+Este plugin fue desarrollado utilizando las siguientes tecnologías:
+
+| Librería | Propósito | Versión |
+|----------|-----------|---------|
+| [TCPDF](https://tcpdf.org/) | Generación de PDFs de alta calidad | 6.10.1 |
+| [Endroid QR Code](https://github.com/endroid/qr-code) | Generación de códigos QR | 3.9.7 |
+| [Symfony Components](https://symfony.com/) | Componentes de utilidad | ^5.0 |
+| [Google Sheets API](https://developers.google.com/sheets/api) | Integración con hojas de cálculo | v4 |
+
+---
+
+<div align="center">
+
+### ⭐ ¿Te ha sido útil este plugin?
+
+Si este plugin te ha ayudado, considera darle una estrella en GitHub
+
+**Hecho con ❤️ para la comunidad de WordPress**
+
+[⬆ Volver arriba](#-certificados-digitales-pro)
+
+</div>
